@@ -1,0 +1,23 @@
+web1:
+  type: php
+  name: priv
+  php_extensions:
+    - mysqli
+    - gd
+  network_dirs:
+    priv:
+      - /data
+  after_build:
+    - "rm -R pagoda"
+
+database1:
+  type: percona
+  name: priv
+
+storage1:
+  type: nfs
+  name: storage1
+
+
+git remote add pagoda git@git.pagodabox.io:apps/priv.git
+git push pagoda master

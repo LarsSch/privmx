@@ -1,0 +1,3 @@
+<Files default-data.json>
+    Deny from all
+</Files>

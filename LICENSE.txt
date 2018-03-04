@@ -1,0 +1,33 @@
+
+PrivMX Web Freeware License
+version 1.1
+
+Permission is hereby granted, FREE OF CHARGE, to any person ("You")
+obtaining a copy of this PrivMX software (the "Software"), to install
+and run the Software on any computer / server / web hosting.
+
+You MAY run the Software in any context - personal, commercial, etc.
+You MAY read, analyze and debug the source code of the Software.
+You MAY NOT modify the Software and/or use its source code in other
+software.
+You MAY NOT redistribute, rent, sublicense and/or sell copies of the
+Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+
+The Software is provided with NO SUPPORT and without any obligation on
+the part of Simplito Sp. z o.o. to assist in its use, correction,
+modification or enhancement.
+
+IN NO EVENT SHALL SIMPLITO BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+DEALINGS IN THE SOFTWARE.
+
+PrivMX is a registered trademark of Simplito Sp. z o.o.
+
+Simplito Sp. z o.o.
+ul. Królowej Jadwigi 7/2, 87-100 Toruń, Polska, EU
+https://simplito.com

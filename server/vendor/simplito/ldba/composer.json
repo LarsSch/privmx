@@ -1,0 +1,24 @@
+{
+    "name": "simplito/ldba",
+    "authors": [
+        {
+            "name": "Sebastian Smyczyński",
+            "email": "s.smyczynski@simplito.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@simplito.com:smyczek/PSON"
+        }
+    ],
+    "require": {
+        "simplito/PSON": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "simplito\\": "src"
+        },
+        "files": ["ldba.php"]
+    }
+}

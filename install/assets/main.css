@@ -1,0 +1,327 @@
+@import "fonts.css";
+@import "fontello.css";
+@import "animation.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #111;
+  color: #eee;
+  font-family: source_sans_pro, arial, sans-serif;
+  line-height: 1.42857;
+}
+
+body, td, button {
+  font-size: 14px;
+}
+
+button, .button {
+  background: #FFF;
+  color: #000 !important;
+  padding: 10px 20px;
+  border: 1px solid #888;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: source_sans_pro, arial, sans-serif;
+}
+
+a,
+a:active,
+a:hover,
+a:focus,
+a:visited {
+  color: #eee;
+}
+
+a.button,
+a.button:active,
+a.button:hover,
+a.button:focus,
+a.button:visited {
+  text-decoration: none;
+}
+
+button[disabled] {
+  color: #888;
+  cursor: wait;
+}
+
+.section-buttons {
+  margin: 20px 0;
+  text-align: center;
+}
+
+#content {
+  width: 800px;
+  margin: 0 auto;
+}
+
+#sections {
+  display: none;
+}
+
+.section {
+  overflow: auto;
+}
+
+#logo {
+  margin: -300px auto 40px auto;
+  display: block;
+  width: 175px;
+  opacity: 0;
+  transition: opacity 1.3s, margin-top .2s ease;
+  -moz-transition: opacity 1.3s, margin-top .2s ease;
+  -webkit-transition: opacity 1.3s, margin-top .2s ease;
+}
+
+#logo.fade-in {
+  margin-top: 60px;
+  opacity: 1;
+}
+
+#http-warning {
+  text-align: center;
+}
+
+body.proto-https #http-warning,
+body.proto-http #start-section {
+  display: none;
+}
+
+#http-warning .info-header {
+  font-size: 22px;
+}
+
+#http-warning .info-1 {
+  margin: 20px 0;
+}
+
+#http-warning .info-2 {
+  margin: 20px 0;
+  font-weight: bold;
+}
+
+#http-warning .main {
+  text-align: left;
+  width: 600px;
+  margin: auto;
+}
+
+#http-warning button {
+  margin: 40px 10px;
+}
+
+#start-section {
+  text-align: center;
+}
+
+#http-warning .title,
+#start-section .title {
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+
+#start-section .info {
+  font-size: 16px;
+}
+
+#start-section .versions {
+  margin-bottom: 30px;
+}
+
+#start-section .versions table {
+  width: 100%;
+}
+
+#start-section .versions td {
+  width: 50%;
+  font-size: 16px;
+}
+
+#start-section .versions tr td:first-child {
+  text-align: right;
+}
+
+#start-section .versions tr td:last-child {
+  text-align: left;
+  padding-left: 10px;
+}
+
+#start-section .checksum {
+  margin-bottom: 30px;
+}
+
+#tests-section {
+  display: none;
+}
+
+.tests {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.tests td {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 13px;
+  vertical-align: top;
+  text-align: left;
+}
+
+.test-suite td {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.test-suite.skipped td {
+  color: #444;
+}
+
+.test-label {
+  padding-left: 20px;
+}
+
+.test-hint {
+  font-size: 12px;
+  padding: 10px;
+  background: #000;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-left: 2px solid #e33;
+}
+
+.test-label,
+.test-comment {
+  width: 350px;
+}
+
+.test-result {
+  width: 100px;
+  text-align: center !important;
+}
+
+
+.test-hint ul {
+  margin-top: 10px;
+}
+
+.test-hint li {
+  font-size: 12px;
+  padding: 3px 5px;
+}
+
+.success,
+.test-ok .test-result {
+  color: #3e3;
+}
+
+.error,
+.test-error .test-result,
+.test-error .test-comment,
+.test-error .test-comment a {
+  color: #e33;
+}
+
+.test-warning .test-result {
+  color: #f7d960;
+}
+
+pre {
+  font-size: 12px;
+  padding: 10px;
+  background: #000;
+  margin-left: 20px;
+}
+
+ul {
+  margin-left: 20px;
+}
+
+#confirm-section {
+  padding-top: 20px;
+  text-align: center;
+  padding-bottom: 30px;
+  display: none;
+}
+
+#confirm-section .header {
+  font-size: 22px;
+}
+
+#confirm-section.is-success .on-error,
+#confirm-section.is-error .on-success {
+  display: none;
+}
+
+#confirm-section .on-success .header {
+  color: #3e3;
+}
+
+#confirm-section .on-error .header {
+  color: #e33;
+}
+
+#confirm-section .text {
+  margin-top: 30px;
+}
+
+#confirm-section .register-info p {
+  margin-top: 30px;
+}
+
+#fix-info {
+  text-align: center;
+  margin: 20px auto;
+  background: #000;
+  padding: 20px;
+}
+
+#fix-info button {
+  margin-top: 20px;
+}
+
+#finish-wrapper {
+  text-align: center;
+  margin: 20px auto;
+  background: #000;
+  padding: 20px;
+}
+
+#finish-wrapper .success {
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+#finish-wrapper .accept-wrapper {
+  margin: 20px;
+}
+
+#finish-wrapper .accept-wrapper input {
+  vertical-align: middle;
+  margin-top: -2px;
+}
+
+#finish-wrapper .muted {
+  margin-top: 20px;
+  font-size: 12px;
+}
+
+#finish-wrapper #install-button[disabled] {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+#register-button {
+  display: inline-block;
+  margin-top: 30px;
+}
+
+#login-button {
+  display: inline-block;
+  margin: 30px 0 10px 0;
+}

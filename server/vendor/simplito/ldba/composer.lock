@@ -1,0 +1,42 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "85066ae1b7e745d4d5cb64379a5ae2d7",
+    "packages": [
+        {
+            "name": "simplito/pson",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@simplito.com:smyczek/PSON",
+                "reference": "43a138d9bd16bde53fbd7f4e04b90e3a7752c6b4"
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PSON\\": "src/"
+                }
+            },
+            "time": "2017-10-26 12:59:58"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "simplito/pson": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

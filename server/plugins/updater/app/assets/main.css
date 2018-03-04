@@ -1,0 +1,133 @@
+@import "fonts.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: source_sans_pro, arial, sans-serif;
+}
+
+body {
+  background-color: #111;
+  color: #eee;
+  font-family: source_sans_pro, arial, sans-serif;
+  line-height: 1.42857;
+  font-size: 18px;
+}
+
+a,
+a:hover,
+a:active,
+a:focus,
+a:visited {
+  color: #FFF;
+  text-decoration: none;
+  border-bottom: 1px solid #888;
+}
+a:hover {
+  border-color: #999;
+}
+#logo {
+  margin-top: 40px;
+  margin-bottom: 30px;
+  vertical-align: bottom;
+}
+#main {
+  width: 650px;
+  margin: 20px auto;
+  text-align: center;
+}
+#header {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#header .small {
+  font-size: 14px;
+}
+#header .custom-info {
+  margin-bottom: 10px;
+}
+#steps {
+  text-align: left;
+  padding: 10px;
+  font-size: 12px;
+  font-family: monospace;
+  line-height: 14px;
+  color: #777;
+}
+#steps .step {
+  position: relative;
+  margin-top: 5px;
+  line-height: 14px;
+  overflow: hidden;
+}
+#steps .step:first-child {
+  margin-top: 0;
+}
+#steps .step.section-start-step {
+  margin-top: 20px;
+}
+#steps .step.status-completed {
+  color: #eee;
+}
+#steps .step.status-completed .status {
+  color: #3e3;
+}
+#steps .step.status-failed {
+  color: #e33;
+  font-weight: bold;
+}
+#steps .step.status-pending {
+  color: #eee;
+  font-weight: bold;
+}
+#steps .step .text {
+  width: 350px;
+  display: inline-block;
+}
+#steps .step .text.bold {
+  font-weight: bold;
+}
+#steps .step .status {
+  display: inline-block;
+}
+#update-error {
+  color: #e33;
+}
+#update-error pre {
+  text-align: left;
+  font-size: 10px;
+  margin-top: 10px;
+  border: none;
+  background-color: transparent;
+  color: #eee;
+  padding: 0;
+}
+#finish-info {
+  color: #3e3;
+}
+#finish-info p {
+  margin-top: 10px;
+}
+#update-error,
+#finish-info {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #000;
+}
+button,
+.button {
+  background: #FFF;
+  color: #000 !important;
+  padding: 10px 20px;
+  border: 1px solid #888;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: source_sans_pro, arial, sans-serif;
+  font-size: 14px;
+}
+button .fa,
+.button .fa {
+  margin-right: 5px;
+}

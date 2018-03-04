@@ -1,0 +1,17 @@
+{
+    "name": "simplito/bi-php",
+    "description": "BigInteger proxy for gmp and bcmath",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Simplito Team",
+            "email": "s.smyczynski@simplito.com",
+            "homepage": "https://simplito.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "BI\\": "lib/"
+        }
+    }
+}

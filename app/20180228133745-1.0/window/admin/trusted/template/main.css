@@ -1,0 +1,7 @@
+/*************************************************************
+This file is distributed under the PrivMX Web Freeware License
+See LICENSE.TXT in the main folder of the software package
+or https://privmx.com/web-freeware-license
+Copyright (c) 2017 Simplito Sp. z o.o.
+**************************************************************/
+.panel.trusted [data-action=refresh-domains]{font-size:16px;margin-left:5px;font-weight:400;background:0 0;color:#eee}.panel.trusted [data-action=refresh-domains] .fa{margin-right:0}.panel.trusted [data-action=refresh-domains]>span{margin-left:3px}.panel.trusted [data-action=refresh-domains] .fa-refresh+span{display:none}.panel.trusted .buttons{text-align:center;margin:25px 0 20px;padding-top:20px}.panel.trusted .buttons .button-with-info{display:inline-block}.panel.trusted .buttons .button-with-info .info{color:#666;font-size:12px;margin-top:5px}.panel.trusted .action-col .btn-cnt{width:50px}.panel.trusted .state.publish{color:#84d501;font-weight:700}.panel.trusted button.publish{background-color:#84d501;text-shadow:none}

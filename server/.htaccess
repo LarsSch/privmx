@@ -1,0 +1,6 @@
+<Files config.php>
+    Deny from all
+</Files>
+<Files keys.php>
+    Deny from all
+</Files>
