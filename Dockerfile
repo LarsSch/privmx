@@ -1,1 +1,1 @@
-FROM buddy/git-push:latest
+FROM buddy/git-push:1.1
