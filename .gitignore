@@ -1,3 +1,4 @@
 .vscode
 **.pyc
 /vendor/
+/vendor/**/.git
