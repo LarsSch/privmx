@@ -2,3 +2,5 @@
 **.pyc
 /vendor/
 /vendor/**/.git
+./vendor/*
+vendor/*
