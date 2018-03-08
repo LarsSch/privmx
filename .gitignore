@@ -5,6 +5,7 @@
 ./vendor/*
 vendor/*
 .git/
+/app/server/config.php
 
 # Logs and databases #
 ######################
