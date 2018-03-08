@@ -19,6 +19,10 @@ class ComposerStaticInit3f01df53170a40210f54741db126f658
         array (
             'PSON\\' => 5,
         ),
+        'B' => 
+        array (
+            'BI\\' => 3,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
@@ -29,6 +33,10 @@ class ComposerStaticInit3f01df53170a40210f54741db126f658
         'PSON\\' => 
         array (
             0 => __DIR__ . '/..' . '/simplito/pson-php/src',
+        ),
+        'BI\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/simplito/bigint-wrapper-php/lib',
         ),
     );
 

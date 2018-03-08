@@ -8,4 +8,5 @@ $baseDir = dirname($vendorDir);
 return array(
     'simplito\\' => array($vendorDir . '/simplito/ldba-php/src'),
     'PSON\\' => array($vendorDir . '/simplito/pson-php/src'),
+    'BI\\' => array($vendorDir . '/simplito/bigint-wrapper-php/lib'),
 );

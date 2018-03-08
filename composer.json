@@ -12,6 +12,7 @@
         "ext-mcrypt": "*",
         "ext-gettext": "*",
         "ext-mongodb": "^1.1.0",
-        "simplito/ldba-php": "^1.0"
+        "simplito/ldba-php": "^1.0",
+        "simplito/bigint-wrapper-php": "^1.0"
     }
 }

@@ -1,5 +1,41 @@
 [
     {
+        "name": "simplito/bigint-wrapper-php",
+        "version": "1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/simplito/bigint-wrapper-php.git",
+            "reference": "cf21ec76d33f103add487b3eadbd9f5033a25930"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/simplito/bigint-wrapper-php/zipball/cf21ec76d33f103add487b3eadbd9f5033a25930",
+            "reference": "cf21ec76d33f103add487b3eadbd9f5033a25930",
+            "shasum": ""
+        },
+        "time": "2018-02-27T12:38:08+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "BI\\": "lib/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Simplito Team",
+                "email": "s.smyczynski@simplito.com",
+                "homepage": "https://simplito.com"
+            }
+        ],
+        "description": "Common interface for php_gmp and php_bcmath modules"
+    },
+    {
         "name": "simplito/ldba-php",
         "version": "1.0.0",
         "version_normalized": "1.0.0.0",
