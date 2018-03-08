@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "9a16bc7f070d408d149a0a50ad49c6c5",
+    "content-hash": "a998ff9522d872a52967fe9df47073f5",
     "packages": [],
     "packages-dev": [],
     "aliases": [],
@@ -16,7 +16,7 @@
         "ext-bcmath": "*",
         "ext-gmp": "*",
         "ext-mbstring": "*",
-        "ext-dba": "*",
+        "ext-dbm": "*",
         "ext-mcrypt": "*",
         "ext-memcached": "*",
         "ext-mongodb": "^1.1.0"

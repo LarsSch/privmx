@@ -3,7 +3,7 @@
         "ext-bcmath": "*",
         "ext-gmp": "*",
         "ext-mbstring": "*",
-        "ext-dba": "*",
+        "ext-dbm": "*",
         "ext-mcrypt": "*",
         "ext-memcached": "*",
         "ext-mongodb": "^1.1.0"
