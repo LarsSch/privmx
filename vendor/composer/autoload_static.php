@@ -6,9 +6,37 @@ namespace Composer\Autoload;
 
 class ComposerStaticInit3f01df53170a40210f54741db126f658
 {
+    public static $files = array (
+        '9d74f31c12159f443de5b2b016dd87f6' => __DIR__ . '/..' . '/simplito/ldba-php/ldba.php',
+    );
+
+    public static $prefixLengthsPsr4 = array (
+        's' => 
+        array (
+            'simplito\\' => 9,
+        ),
+        'P' => 
+        array (
+            'PSON\\' => 5,
+        ),
+    );
+
+    public static $prefixDirsPsr4 = array (
+        'simplito\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/simplito/ldba-php/src',
+        ),
+        'PSON\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/simplito/pson-php/src',
+        ),
+    );
+
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
+            $loader->prefixLengthsPsr4 = ComposerStaticInit3f01df53170a40210f54741db126f658::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit3f01df53170a40210f54741db126f658::$prefixDirsPsr4;
 
         }, null, ClassLoader::class);
     }

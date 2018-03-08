@@ -4,8 +4,89 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "9dcfc419b0e0202ac0b3f9de01997c19",
-    "packages": [],
+    "content-hash": "86f8a674f3c6bf8120f1a85ca4c66515",
+    "packages": [
+        {
+            "name": "simplito/ldba-php",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/simplito/ldba-php.git",
+                "reference": "3a7b7179df048b7f18fb23bb772db1b50617feeb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/simplito/ldba-php/zipball/3a7b7179df048b7f18fb23bb772db1b50617feeb",
+                "reference": "3a7b7179df048b7f18fb23bb772db1b50617feeb",
+                "shasum": ""
+            },
+            "require": {
+                "simplito/pson-php": "~1.0.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "simplito\\": "src"
+                },
+                "files": [
+                    "ldba.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Simplito Team",
+                    "email": "s.smyczynski@simplito.com",
+                    "homepage": "https://simplito.com"
+                }
+            ],
+            "description": "LDBA is a high-performance, low-memory-footprint, single-file embedded database for key/value storage",
+            "time": "2018-02-27T12:51:11+00:00"
+        },
+        {
+            "name": "simplito/pson-php",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/simplito/pson-php.git",
+                "reference": "b2d0c36ebba5404b4193aa8680d50bd688b698d4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/simplito/pson-php/zipball/b2d0c36ebba5404b4193aa8680d50bd688b698d4",
+                "reference": "b2d0c36ebba5404b4193aa8680d50bd688b698d4",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PSON\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Simplito Team",
+                    "email": "s.smyczynski@simplito.com",
+                    "homepage": "https://simplito.com"
+                }
+            ],
+            "description": "PHP implementation of pson",
+            "time": "2018-02-27T12:47:33+00:00"
+        }
+    ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",

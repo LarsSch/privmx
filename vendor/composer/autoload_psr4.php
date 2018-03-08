@@ -6,4 +6,6 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'simplito\\' => array($vendorDir . '/simplito/ldba-php/src'),
+    'PSON\\' => array($vendorDir . '/simplito/pson-php/src'),
 );
