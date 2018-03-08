@@ -4,3 +4,21 @@
 /vendor/**/.git
 ./vendor/*
 vendor/*
+.git/
+
+# Logs and databases #
+######################
+*.log
+*.sql
+
+# OS generated files #
+######################
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
+._*
+
+# Vim generated files #
+######################
+*.un~
